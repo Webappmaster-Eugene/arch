@@ -1,0 +1,34 @@
+.DS_Store
+node_modules
+/dist
+
+angular-online-store-master/node_modules
+vue-online-store-master/node_modules
+react-online-store-master/node_modules
+vanila-js-online-store-master/node_modules
+javascript-patterns-master/node_modules
+
+angular-online-store-master/dist
+vue-online-store-master/dist
+react-online-store-master/dist
+vanila-js-online-store-master/dist
+javascript-patterns-master/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

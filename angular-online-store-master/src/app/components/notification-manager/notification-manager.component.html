@@ -1,0 +1,8 @@
+<div class="notifications-manager">
+  <app-notification
+    *ngFor="let notification of notifications;"
+    [notification]="notification"
+    (deleteNotification)="onDelete($event)"
+  >
+  </app-notification>
+</div>
